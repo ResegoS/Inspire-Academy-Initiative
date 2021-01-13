@@ -99,13 +99,10 @@
           <a href="login.php" style="font-weight:bold; position:relative; left:28px;">
             Already have an account? Sign In
           </a>
-
       </form>
     </div>
     </div>
     </div>
     </div>
-
-      <script src="JS/login.js"></script>
   </body>
 </html>

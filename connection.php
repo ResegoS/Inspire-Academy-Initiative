@@ -2,8 +2,8 @@
   //Connection
 
   $database='Inspire Foundation Group';
-  $user='resegoS';
-  $password='Msadiwametsi1';
+  $user='';
+  $password='';
   $server='localhost';
 
   try
