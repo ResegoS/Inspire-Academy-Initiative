@@ -17,3 +17,4 @@
   {
     echo 'Connection Failed: '.$e->getMessage();
   }
+?>

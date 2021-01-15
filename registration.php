@@ -1,5 +1,5 @@
 <?php
-  include('connection.php');
+  include('php/registration-php.php');
  ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -75,11 +75,12 @@
               <td><input type="password" name="confirm_password" id="confirm_password" required style="vertical-align: right;"></td>
             </tr>
           </div>
-        </table>
+        </table>`
 
         <div class="w3-section">
           <tr>
             <td>
+              <td><label style=" color: #0047b3;">User Type</label></td>
               <select id="user_type">
                 <option>Student</option>
                 <option>Educator</option>
@@ -88,8 +89,6 @@
             </td>
           </tr>
         </div>
-
-        <!--school option on selection of user type-->
 
 
           <button type="submit" name="register" id="register" class="w3-button w3-block w3-dark-grey" style="padding: 5px 10px; border-radius:4px; width:20%; position:relative; left:110px;">
